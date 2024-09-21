@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="../style/ngodisplay.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">Logo</div>
+        <div class="nav-links">
+            <button class="link-button" id="upcoming-appointment">History</button>
+            <button class="link-button" id="book-appointment">Donate</button>
+            <button class="link-button" id="profile">Profile</button>
+        </div>
+        <div class="profile">
+            <div class="profile-circle">
+                <span id="usernameq">User</span>
+            </div>
+        
+        </div>
+    </header>
+    <form id="charityForm">
+        <!-- Form fields will be inserted here -->
+    </form>
+    <div id="pro">
+     
+      <div class="pic" id="pic">
+
+      </div>
+      
+        <div class="data" id="data">
+         <h2>Organization:<span id="orgname"></span></h2>  
+         <h2>Email: <span id="orgemail"></span></h2>
+         <h2>Goals: <span id="goals"></span></h2>
+         <h2>Mission: <span id="mission"></span></h2>
+         <h2>Website<span id='website'></span></h2>
+        </div>
+    </div>
+      
+        <div class="totaldonation"  id="totaldonation">
+           
+            <div class="care"></div>
+            <div class="inner">
+                <h1>Total Dontion Collected<span>:0</span></h1>
+            </div>  
+        </div>
+    </div>
+  
+
+   </div>
+
+   
+
+    <script src="../script/ngodisplay.js"></script>
+</body>
+</html>

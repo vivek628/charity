@@ -1,0 +1,12 @@
+const express=require('express')
+const Route=express.Router()
+const {regiterngo,postregister,loginNgo,ngodisplay,getngo,details,getorg}=require('../controllers/ngoControllers')
+const {auth}=require('../middlewere/auth')
+Route.get('/registerngo',regiterngo)
+Route.post('/register',postregister)
+Route.get('/loginngo',loginNgo)
+Route.get('/ngodisplay',ngodisplay)
+Route.get('/getngo',auth,getngo)
+Route.post('/ngodetails',auth,details)
+Route.get('/getorg',getorg)
+module.exports=Route

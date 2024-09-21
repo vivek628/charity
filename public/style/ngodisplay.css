@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(219, 217, 217);
+    height: 100vh;
+    overflow: hidden;
+   
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.link-button {
+    background: none; /* No background */
+    border: none; /* No border */
+    color: #010810; /* Link color */
+    text-decoration: underline; /* Underline like links */
+    cursor: pointer; /* Pointer cursor */
+    font-size: 16px; /* Font size */
+    padding: 0; /* No padding */
+    outline: none; /* Remove outline */
+}
+
+.link-button:hover {
+    color: #b30062; /* Darker color on hover */
+}
+
+.link-button:focus {
+    outline: none; /* Remove focus outline */
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    color: #4CAF50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.profile-circle span {
+    color: #4CAF50;
+}
+.upper{
+    height: 400px;
+    width: 80%;
+    margin: auto;
+  
+    display: flex;
+    justify-content: space-around;
+
+}
+.profile1{
+
+    height: 80%;
+    width: 45%;
+    
+    background-color: rgb(200, 238, 238);
+    display: flex;
+    justify-content: space-between;
+}
+
+.totaldonation{
+    height: 300px;
+    width: 65%;
+    background-color: rgb(200, 238, 238);
+    overflow: hidden;
+    margin: auto;
+}
+.profile1 h1,h2 ,h3{
+    color: rgb(142, 142, 142);
+    font-weight: 130;
+}
+.userpic{
+    height: 80%;
+    margin-top: 20px;
+    width: 50%;
+    border-radius: 50%;
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.e1KNYwnuhNwNj7_-98yTRwHaF7&pid=Api&P=0&h=180');
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+   
+}
+.inner{
+    display: flex;
+    height: 100%;
+    width: 100%;  
+    justify-content: space-around;
+   
+}
+
+.care{
+    margin: auto;
+    margin-top: 30px;
+    height: 100px;
+    width: 120px;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/375/375279.png'); /* Path to your image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+.btn{
+    padding: 4px 15px;
+    cursor: pointer;
+    border: none;
+    font-size: larger;
+}
+.btn:hover{
+    background-color: rgb(186, 186, 233);
+}
+body {
+    font-family: Arial, sans-serif;
+}
+form {
+    max-width: 400px;
+    margin: auto;
+    display: none; /* Initially hidden */
+}
+.heading{
+    
+   text-align: center;
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #218838;
+}
+#pro{
+    height: 90vh;
+    width: 70vw;
+    margin: auto;
+   
+    display: none;
+    overflow: hidden;
+}
+.pic{
+    height:26%;
+    width: 15%;
+    margin: auto;
+    border-radius: 50%;
+    background-image: url(https://tse4.mm.bing.net/th?id=OIP.Wdzdwbz7D0-UuzFY2s78WQAAAA&pid=Api&P=0&h=180);
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+    
+}
+#data{
+    height:60%;
+    width: 70%;
+  
+    padding-left: 280px;
+    margin: auto;
+ 
+}

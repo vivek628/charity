@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <link rel="stylesheet" href="../style/userdisplay.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">Logo</div>
+        <div class="nav-links">
+            <button class="link-button" id="history">History</button>
+            <button class="link-button" id="donate">Donate</button>
+            <button class="link-button" id="home">Home</button>
+        </div>
+        <div class="profile">
+            <div class="profile-circle">
+                <span id="usernameq">User</span>
+            </div>
+        </div>
+    </header>
+    <div class="upper" id="upper">
+        <div class="profile1">
+            <div class="userpic"></div>
+            <div class="profilesection">
+                <h1>My Profile</h1>
+                <h2 id="username"></h2>
+                <h2 id="useremail"></h2>
+                <h2 id="usercontact">9756076319</h2>
+                <button class="btn">Edit</button>
+            </div>
+        </div>
+        <div class="totaldonation" id="totaldonation">
+            <h1 style="margin-left: 36%; color:red">My Impact</h1>
+            <div class="care"></div>
+            <div class="inner">
+                <h1 id="amountdonated">Total Donation<span>: 0</span></h1>
+            </div>
+        </div>
+    </div>
+    <div id="donationTableContainer"></div>
+    <div id="donationTableContainer"></div>
+
+    <!-- Donation Form -->
+    <div id="donationFormContainer">
+        <h2>Donate</h2>
+        <form id="donationForm">
+            <label for="orgName">Organization Name:</label>
+            <input type="text" id="orgName" name="orgName" required>
+            <br>
+            <label for="amount">Amount (₹):</label>
+            <input type="number" id="amount" name="amount" required>
+            <br>
+            <button type="submit" id="pay">Pay</button>
+        </form>
+    </div>
+
+    <script src="../script/userdisplay.js"></script>
+</body>
+</html>
